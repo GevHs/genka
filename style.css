@@ -1,0 +1,44 @@
+p {
+  padding: 10px;
+  font-size: 16px;
+  min-width: 100px;
+  width: 300px;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: rgb(19, 211, 19);
+  text-align: center;
+}
+
+.popupDiv {
+  width: 720px;
+  height: 420px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background-color: rgb(255, 254, 254);
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.28);
+  transition: 1s;
+}
+
+.clase_blog{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close{
+    font-size: 23px;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}

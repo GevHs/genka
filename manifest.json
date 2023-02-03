@@ -1,0 +1,16 @@
+{  
+    "manifest_version": 3,
+    "name": "Genka",
+    "description":"this is genka job",
+    "version": "1.0",
+    "action":{
+         "default_popup":"popup.html",
+         "default_icon":"fav.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://*/*"],
+        "js":["script.js"],
+        "css": ["style.css"]
+    }]
+ 
+}
